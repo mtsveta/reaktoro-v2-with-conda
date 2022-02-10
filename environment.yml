@@ -1,0 +1,17 @@
+name: reaktoro-v2-with-conda
+
+channels:
+  - conda-forge
+
+dependencies:
+  - reaktoro
+  - pip
+  - pip:
+    - numpy
+    - numba
+    - pandas
+    - jupyter
+    - jupyterlab
+    - bokeh
+    - matplotlib
+
